@@ -365,3 +365,19 @@ h1, h2, h3, h4, h5, h6, .stMarkdown {
 [class^="css-"], [class*=" css-"] {
     color: #ffffff !important;
 }
+
+/* ===========================================
+   SIDEBAR FIX — MATCH BACKGROUND + TEXT COLOR
+=========================================== */
+
+/* Sidebar background */
+.stSidebar, .css-1d391kg, .css-1lcbmhc {
+    background-color: #080c1f !important;
+}
+
+/* Sidebar text */
+.stSidebar div, .stSidebar span, .stSidebar p, 
+.stSidebar h1, .stSidebar h2, .stSidebar h3, 
+.stSidebar h4, .stSidebar label {
+    color: #ffffff !important;
+}
