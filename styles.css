@@ -7,7 +7,7 @@
 
 html, body {
     background: #080c1f !important;
-    color: #ffffff;
+    color: #ffffff !important;
     font-family: 'Segoe UI', system-ui, sans-serif;
 }
 
@@ -351,4 +351,17 @@ button[kind="secondary"]:hover {
     text-align: center;
     opacity: 0.7;
     font-size: 0.9rem;
+}
+/* ===========================================
+   GLOBAL TEXT FORCE OVERRIDE — FINAL FIX
+=========================================== */
+
+html, body, .stApp, div, span, p, label, 
+h1, h2, h3, h4, h5, h6, .stMarkdown {
+    color: #ffffff !important;
+}
+
+/* Fix Streamlit auto-generated grey widget classes */
+[class^="css-"], [class*=" css-"] {
+    color: #ffffff !important;
 }
